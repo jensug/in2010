@@ -1,0 +1,15 @@
+
+1.  Programmet mitt består av metodene isRealizable, setStartNode, setEarly, setLate og optimalTimeSchedule.
+
+Kompleksitet:
+isRealizable har O(|V| * |E| ) hvor V er en tasks og E er outedges
+setStartNode: O(|V|)
+setEarly: O(|V| * |E| ) pluss at for hver out edge kjøres |E| rekursivt som jeg usikker på hvordan jeg skriver i big O. Jeg var i gruppetime for å få hjelp men hun var litt usikker hun også. Så jeg leverer det bare sånn som dette.
+setLate: omtrent lik som setEarly
+opyimalTimeSchedual: O(|V| + Optimaltid * |V| ) Fordi programmet mitt regner ut optimal tid i setEarly() og bruker det som en time teller i en while løkke for å printe ut den optimale veien så blir det litt rart. 
+
+2.  The input graph needs to not have any loops in it.
+
+3.  I did not follow a specific algorithm for any my implimentations,
+    even tho i'm sure some of them are similar to some. I have
+    implimented them my self.
